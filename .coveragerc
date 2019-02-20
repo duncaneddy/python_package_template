@@ -1,1 +1,4 @@
+# .coveragerc
+[report]
+
 omit = python_package_template/__about__.py
