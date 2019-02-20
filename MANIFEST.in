@@ -1,1 +1,1 @@
-recursive-include brahe/data *
+recursive-include python_package_template/data *

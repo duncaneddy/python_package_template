@@ -79,22 +79,18 @@ repositories" button to have it appear.
 
 ## Setting Up Documentation Deployment
 
-If you have not done so, set up github pages by adding a pages repository to your
-github account by following the [setup instructions](https://pages.github.com/) or just add an empty repository
-named `username.github.io` or `orgname.github.io` to your personal or organization account. This repository can be private.
-
-Documentation and documentation deployment is accomplished with the Julia packager
-`Documenter.jl`
-
 To setup the automated deployment of documentation as part of the CI build process
-follow the [Deploy Instructions](https://juliadocs.github.io/Documenter.jl/stable/man/hosting/).
+travis-ci needs to have an access token configured be able to add the documentation.
 
-This involves two steps:
-1. Adding a deploy key to the github deploy keys to allow travis CI to push to new pages to the repository.
-2. Adding an environment variable to your Travis CI build settings with the deployment keys.
+Follow the [travis-sphinx](https://github.com/Syntaf/travis-sphinx) documentation
+to setup a personal access token for travis to deploy documentation to github pages.
+
+If you have not already done so, you also need to enable github pages as the deployment
+end-point which can be done by following step 1 of the documentation for [github pages](https://pages.github.com/).
 
 ## Adding package to Python Package Repository (PyPi)
 
 1. Make an account with the [Python Package Index](https://pypi.org/).
 2. Install the travis-ci command line client so you can encrypt your PyPi account information.
-3. 
+3. Uncomment the relevant lines in the `.travis.yml` file
+4. Encrypt your pypi.org username and password for travis by following the procedure [here](https://docs.travis-ci.com/user/encryption-keys/)
