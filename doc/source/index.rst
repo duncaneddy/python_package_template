@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 python_package_template Documentation
-===================
+=====================================
 
 .. toctree::
     :maxdepth: 2
