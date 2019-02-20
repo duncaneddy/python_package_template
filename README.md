@@ -1,6 +1,6 @@
 | Testing | Coverage | Documentation |
 | :-----: | :------: | :-----------: |
-| [![Build Status](https://travis-ci.org/sisl/python_package_template.svg?branch=master)](https://travis-ci.org/sisl/python_package_template) | [![Coverage Status](https://coveralls.io/repos/github/sisl/python_package_template/badge.svg?branch=master)](https://coveralls.io/github/sisl/python_package_template?branch=master) | [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sisl.github.iopython_package_template) |
+| [![Build Status](https://travis-ci.org/duncaneddy/python_package_template.svg?branch=master)](https://travis-ci.org/duncaneddy/python_package_template) | [![Coverage Status](https://coveralls.io/repos/github/duncaneddy/python_package_template/badge.svg?branch=master)](https://coveralls.io/github/duncaneddy/python_package_template?branch=master) | [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://duncaneddy.github.io/python_package_template) |
 
 # python_package_template
 python_package_template provides an example python project template to quickly setup
