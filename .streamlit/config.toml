@@ -1,0 +1,6 @@
+[server]
+port = 8501
+runOnSave = true
+
+[theme]
+base="light" # Always use light theme for visualizations

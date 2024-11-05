@@ -1,0 +1,34 @@
+[project]
+name = "mypkg"
+version = "0.0.1"
+authors = [
+  { name="Duncan Eddy", email="duncan.eddy@gmail.com" },
+]
+description = "Example Python package"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "streamlit",
+    "watchdog",
+    "h5py",
+    "psycopg[binary]",
+    "typer",
+]
+
+# Add dev dependencies
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.urls]
+Homepage = "https://github.com/duncaneddy/python_package_template"
+
+[project.scripts]
+mypkg = "mypkg.cli.main:main"
+
+[tool.setuptools]
+py-modules = ['mypkg']
+packages = ['mypkg']
